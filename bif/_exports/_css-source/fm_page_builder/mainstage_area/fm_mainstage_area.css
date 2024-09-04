@@ -1,0 +1,221 @@
+/* line 3, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+.fm_mainstage_area {
+  padding: 0px;
+  position: relative; }
+  @media only screen and (min-width: 640px) {
+    /* line 7, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area:before {
+      display: none; } }
+  @media only screen and (max-width: 640px) {
+    /* line 7, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area:before {
+      background-image: url("../../../../_images/dividers/black_top_desktop.svg") !important; } }
+  /* line 17, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+  .fm_mainstage_area .slide {
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    overflow: hidden; }
+    @media only screen and (min-width: 1200px) {
+      /* line 17, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .slide {
+        height: 44vw; } }
+    @media only screen and (max-width: 640px) {
+      /* line 17, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .slide {
+        height: unset;
+        padding: 5.1vw 0px 14.1vw; } }
+    /* line 41, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area .slide::before {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      inset: 0;
+      z-index: 1; }
+      @media only screen and (max-width: 640px) {
+        /* line 41, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .slide::before {
+          display: none; } }
+    /* line 54, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area .slide.wave_bottom:after {
+      background-image: url("../../../../_images/dividers/yellow_bottom_desktop.png"); }
+    /* line 63, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area .slide img.bg {
+      object-fit: cover;
+      width: 100%;
+      height: 100%; }
+      @media only screen and (max-width: 640px) {
+        /* line 63, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .slide img.bg {
+          display: none; } }
+    /* line 73, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area .slide video {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      position: absolute; }
+      @media only screen and (max-width: 640px) {
+        /* line 73, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .slide video {
+          display: none; } }
+    /* line 85, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area .slide .content_wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: calc(100% - 9.31vw);
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      @media only screen and (max-width: 640px) {
+        /* line 85, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .slide .content_wrapper {
+          position: relative; } }
+      @media only screen and (min-width: 75rem) {
+        /* line 101, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .slide .content_wrapper .row {
+          width: 75rem; } }
+      @media only screen and (max-width: 75rem) {
+        /* line 101, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .slide .content_wrapper .row {
+          width: 100%; } }
+      @media only screen and (max-width: 1024px) {
+        /* line 110, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .slide .content_wrapper .row h1 {
+          font-size: 60px; } }
+      @media only screen and (max-width: 640px) {
+        /* line 110, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .slide .content_wrapper .row h1 {
+          color: #fbc34a; } }
+  @media only screen and (max-width: 640px) {
+    /* line 137, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area .hold_tiles {
+      padding-bottom: 60px; } }
+  /* line 142, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+  .fm_mainstage_area .hold_tiles .tiles {
+    margin-top: -4.1vw;
+    position: relative;
+    z-index: 3;
+    padding-bottom: 12.1vw;
+    max-width: 89rem; }
+    @media only screen and (max-width: 1200px) {
+      /* line 142, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .hold_tiles .tiles {
+        justify-content: center; } }
+    @media only screen and (max-width: 640px) {
+      /* line 142, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .hold_tiles .tiles {
+        margin-top: 0px;
+        padding-top: 2vw;
+        padding-bottom: 0px; } }
+    @media only screen and (min-width: 1024px) {
+      /* line 171, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .hold_tiles .tiles .tile {
+        flex: 1; } }
+    @media only screen and (max-width: 1200px) {
+      /* line 171, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .hold_tiles .tiles .tile {
+        flex: 0 0 33%;
+        max-width: 33%;
+        margin-bottom: 30px; } }
+    @media only screen and (max-width: 640px) {
+      /* line 171, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .hold_tiles .tiles .tile {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px; } }
+    /* line 191, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+    .fm_mainstage_area .hold_tiles .tiles .tile .hold_me {
+      height: 100%;
+      position: relative;
+      transition: background-color 0.25s;
+      display: flex;
+      flex-direction: column;
+      border-radius: 17px; }
+      @media only screen and (max-width: 640px) {
+        /* line 191, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .hold_tiles .tiles .tile .hold_me {
+          flex-direction: row; } }
+      @media only screen and (min-width: 640px) {
+        /* line 208, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .hold_tiles .tiles .tile .hold_me:hover:hover .content img {
+          margin-left: 17px; } }
+      /* line 217, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .image {
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        transition: 0.25s all;
+        flex: 0; }
+        /* line 224, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .image img {
+          border-top-left-radius: 15px; }
+          @media only screen and (min-width: 640px) {
+            /* line 224, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+            .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .image img {
+              border-top-right-radius: 15px; } }
+          @media only screen and (max-width: 640px) {
+            /* line 224, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+            .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .image img {
+              border-bottom-left-radius: 15px; } }
+        @media only screen and (max-width: 640px) {
+          /* line 217, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+          .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .image {
+            width: 40%;
+            flex: 0 0 40%; } }
+      /* line 244, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+      .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .content {
+        flex: 1;
+        padding: 15px 18px 24px 18px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        @media only screen and (max-width: 640px) {
+          /* line 244, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+          .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .content {
+            width: 60%;
+            flex: 0 0 60%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-bottom: 15px; } }
+        /* line 262, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .content h2 {
+          margin-bottom: 0px;
+          text-align: center; }
+        /* line 267, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .content .top {
+          padding-bottom: 8px; }
+          @media only screen and (max-width: 640px) {
+            /* line 267, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+            .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .content .top {
+              flex: 1;
+              padding-right: 18px;
+              padding-bottom: 0px; } }
+        /* line 277, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+        .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .content .bottom {
+          text-align: center;
+          margin-top: 10px; }
+          @media only screen and (max-width: 640px) {
+            /* line 277, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+            .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .content .bottom {
+              margin-top: 0px; } }
+          /* line 288, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+          .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .content .bottom a img {
+            max-width: 65px;
+            margin-left: 0px;
+            transition: margin-left .25s ease; }
+            @media only screen and (max-width: 640px) {
+              /* line 288, ../../fm_page_builder/mainstage_area/fm_mainstage_area.scss */
+              .fm_mainstage_area .hold_tiles .tiles .tile .hold_me .content .bottom a img {
+                max-width: 38px; } }
+
+/*# sourceMappingURL=fm_mainstage_area.css.map */

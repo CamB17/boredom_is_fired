@@ -1,0 +1,149 @@
+@mixin bg_light {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li,
+    button,
+    span {
+        color: $text_color;
+    }
+
+    a:not(.fm_button),
+    a span {
+        color: $text_color;
+
+    }
+
+    .fm_button {
+
+        &.primary {
+            background-color: $black;
+            color: $white;
+            border-color: $black;
+
+            &:hover,
+            &:focus-visible {
+                background-color: $yellow;
+                color: $black;
+                border-color: $yellow;
+            }
+        }
+
+        &.secondary {
+            background-color: transparent;
+            border-color: $black;
+            color: $black;
+
+            &:hover {
+                background-color: $light_gray;
+            }
+
+        }
+
+        &.tertiary {
+            background-color: $light_gray;
+            border-color: $light_gray;
+            color: $black;
+
+            &:hover,
+            &:focus-visible {
+                background-color: $medium_gray;
+                border-color: $medium_gray;
+            }
+        }
+
+        &.text {
+            color: $text_color;
+
+
+        }
+    }
+
+    &.bg_white {
+        background-color: $white;
+
+        &+.bg_white {
+            // padding-bottom: 80px;
+
+
+            // @include lt-md {
+            //     padding-bottom: 40px;
+            // }
+        }
+
+        &+footer {
+            margin-top: 2vw;
+        }
+
+    }
+
+    &.bg_yellow {
+        background-color: $yellow;
+
+        &.textured {
+            background-image: url('../../../../../_images/textures/yellow.jpg');
+        }
+
+        .fm_button {
+
+            &.primary {
+
+                &:hover {
+                    background-color: $purple;
+                    border-color: $purple;
+                }
+            }
+        }
+
+
+
+        // @include adjacent_module_sibling_rules("bg_yellow");
+    }
+
+    &.bg_blue {
+        background-color: $blue;
+
+        &.textured {
+            background-image: url('../../../../../_images/textures/blue.jpg');
+        }
+
+        // @include adjacent_module_sibling_rules("bg_yellow");
+    }
+
+    &.bg_purple {
+        background-color: $purple;
+
+        &.textured {
+            background-image: url('../../../../../_images/textures/purple.jpg');
+        }
+
+        // @include adjacent_module_sibling_rules("bg_yellow");
+    }
+
+    &.bg_green {
+        background-color: $green;
+
+        &.textured {
+            background-image: url('../../../../../_images/textures/green.jpg');
+        }
+
+        // @include adjacent_module_sibling_rules("bg_yellow");
+    }
+
+    &.bg_orange {
+        background-color: $orange;
+
+        &.textured {
+            background-image: url('../../../../../_images/textures/orange.jpg');
+        }
+
+
+
+        // @include adjacent_module_sibling_rules("bg_yellow");
+    }
+}

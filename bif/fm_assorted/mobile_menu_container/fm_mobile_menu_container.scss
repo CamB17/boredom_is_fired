@@ -1,0 +1,45 @@
+@import "sass-globals";
+
+.fm_mobile_menu_container {
+    position: relative;
+    height: 0%;
+    bottom: 0;
+    opacity: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    // transition: height .25s, opacity .25s;
+    z-index: 100;
+    @include gt-md {
+        display:none;
+    }
+
+    // button#mobile_menu_close {
+    //     position: absolute;
+    //     left: 22px;
+    //     top: 19px;
+    //     font-size: 0px;
+    //     height: 40px;
+    //     width: 40px;
+    //     background-color: $light_gray;
+    //     background-image: url(../../../../_images/icon_close.svg);
+    //     background-size: 27px;
+    //     background-position: center center;
+    //     background-color: $light_gray;
+    //     background-repeat: no-repeat;
+    // }
+
+    #mobile_menu_wrapper {
+        width: 100%;
+        padding: 15px;
+
+        .mobile_menu_attach_wrapper {
+            position: relative;
+            height: 100%;
+
+            nav#mobile_menu {}
+        }
+    }
+}
+
+// body classes in elements.scss

@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "fm_image_randomizer.css",
+	"sources": [
+		"../../../../fm_page_builder/image_randomizer/fm_image_randomizer.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../styles/variables/_variables.scss",
+		"../../../../styles/mixins/_mixins.scss",
+		"../../../../styles/mixins/_responsive.scss",
+		"../../../../styles/mixins/_margin_padding.scss",
+		"../../../../styles/html_elements/p/_p.scss",
+		"../../../../styles/html_elements/h/_h.scss",
+		"../../../../styles/bg_colors/bg_light/_bg_light.scss",
+		"../../../../styles/bg_colors/bg_dark/_bg_dark.scss"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,oBAAoB,CAAC;EACjB,OAAO,EAAE,cAAc,GAO1B;;EARD,AAGI,oBAHgB,CAGhB,GAAG,CAAC;IACA,KAAK,EAAE,IAAI;IACX,UAAU,EAAE,OAAO;IACnB,QAAQ,EAAE,QAAQ,GACrB"
+}

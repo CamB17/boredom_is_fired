@@ -1,0 +1,9 @@
+@import "sass-globals";
+
+// placement for the module_preview button on the pb modal
+.button.trigger_module_preview {
+    position: absolute;
+    right: 51px;
+    top: 10px;
+    pointer-events: all;
+}

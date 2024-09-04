@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "fm_split_section.css",
+	"sources": [
+		"../../../../fm_page_builder/split_section/fm_split_section.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../styles/variables/_variables.scss",
+		"../../../../styles/mixins/_mixins.scss",
+		"../../../../styles/mixins/_responsive.scss",
+		"../../../../styles/mixins/_margin_padding.scss",
+		"../../../../styles/html_elements/p/_p.scss",
+		"../../../../styles/html_elements/h/_h.scss",
+		"../../../../styles/bg_colors/bg_light/_bg_light.scss",
+		"../../../../styles/bg_colors/bg_dark/_bg_dark.scss"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,iBAAiB,CAAC;EACd,OAAO,EAAE,GAAG,GA0Cf;EIaG,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;;IJxD5C,AAIQ,iBAJS,CAGb,IAAI,CACA,WAAW,CAAC;MAGJ,cAAc,EAAE,IAAI,GAM3B;;EAbT,AAUY,iBAVK,CAGb,IAAI,CACA,WAAW,CAMP,GAAG,CAAC;IACA,aAAa,EAAE,IAAI,GACtB;;EAZb,AAeQ,iBAfS,CAGb,IAAI,CAYA,aAAa,CAAC;IACV,OAAO,EAAE,IAAI,GAWhB;;IA3BT,AAmBY,iBAnBK,CAGb,IAAI,CAYA,aAAa,CAIT,QAAQ,CAAC;MAEL,SAAS,EAAE,KAAK,GAKnB;;MA1Bb,AAuBgB,iBAvBC,CAGb,IAAI,CAYA,aAAa,CAIT,QAAQ,CAIJ,OAAO,CAAC;QACJ,aAAa,EAAE,GAAG,GACrB;EIAb,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;;IJzB5C,AAmCY,iBAnCK,CAGb,IAAI,AA0BC,cAAc,CAMX,WAAW,CAAC;MAEJ,KAAK,EAAE,CAAC,GAEf"
+}

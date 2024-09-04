@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "gdpr.css",
+	"sources": [
+		"../../../../global/gdpr/gdpr.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../styles/variables/_variables.scss",
+		"../../../../styles/mixins/_mixins.scss",
+		"../../../../styles/mixins/_responsive.scss",
+		"../../../../styles/mixins/_margin_padding.scss",
+		"../../../../styles/html_elements/p/_p.scss",
+		"../../../../styles/html_elements/h/_h.scss",
+		"../../../../styles/bg_colors/bg_light/_bg_light.scss",
+		"../../../../styles/bg_colors/bg_dark/_bg_dark.scss"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,IAAI,CAAC,2BAA2B,CAAC;EAC7B,gBAAgB,EAAE,kBAAiB,CAAC,UAAU;EAC9C,UAAU,EAAE,cAAc,GAO7B;;EATD,AAKQ,IALJ,CAAC,2BAA2B,CAI5B,yBAAyB,CACrB,MAAM,CAAC;IACH,KAAK,EEQT,OAAO,CFRW,UAAU,GAC3B"
+}

@@ -1,0 +1,75 @@
+@mixin bg_dark {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li,
+    button,
+    span {
+        color: $white;
+    }
+
+    a:not(.fm_button),
+    a span {
+        color: $white;
+
+    }
+
+    .fm_button {
+
+
+        &.primary {
+            background-color: $yellow;
+            color: $black;
+            border-color: $yellow;
+
+            &:hover,
+            &:focus-visible {
+                background-color: $white;
+                border-color: $white;
+            }
+        }
+
+        &.secondary {
+            background-color: transparent;
+            border-color: $white;
+            color: $white;
+
+            &:hover,
+            &:focus-visible {
+                background-color: #3a3d44;
+            }
+        }
+
+        &.tertiary {
+            background-color: #3a3d44;
+            border-color: #3a3d44;
+            color: $white;
+
+            &:hover,
+            &:focus-visible {
+                background-color: #303038;
+                border-color: #303038;
+            }
+        }
+
+        &.text {
+            color: $white;
+        }
+    }
+
+
+    &.bg_black {
+        background-color: $black;
+
+        &.textured {
+            background-image: url('../../../../../_images/textures/black.jpg');
+        }
+
+        // @include adjacent_module_sibling_rules("bg_black");
+    }
+}

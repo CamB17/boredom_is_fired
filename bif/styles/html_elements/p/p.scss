@@ -1,0 +1,14 @@
+@import "sass-globals";
+
+p,
+.p {
+    @include p_normal;
+
+    &.large {
+        @include p_large;
+    }
+
+    &.small {
+        @include p_small;
+    }
+}

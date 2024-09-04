@@ -1,0 +1,274 @@
+@import "sass-globals";
+
+body.home {
+    &:not(.scrolled) {
+        header {
+            .hold_header {
+                .logo {
+                    @include gt-custom(1025px) {
+                        width: 177px;
+
+                        a.logo_homepage_footer {
+                            display: block;
+
+                            // top: -15px;
+
+                            // img {
+
+                            //     width: 177px;
+                            // }
+                        }
+                    }
+
+                    a.logo_normal {
+                        display: none;
+                    }
+
+                    a.logo_homepage_footer {
+                        //     display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+header {
+    $overlap: 40px;
+
+    width: 100%;
+    z-index: 5;
+    position: relative;
+
+    background-image: url("../../../../_images/header_bg.png");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    padding-bottom: $overlap;
+    margin-bottom: -#{$overlap};
+    transition: top 0.25s;
+
+    background-position-x: center;
+
+    top: 0;
+
+    @include lt-lg {
+        top: unset;
+        position: fixed;
+        bottom: 0;
+        z-index: 10;
+        background-image: none;
+        background-color: $black;
+    }
+
+    .hold_header {
+        transition: transform 0.25s, padding 0.25s;
+        transform: translateX(0px);
+        padding: 0px;
+        padding: 27px 0px 13px;
+
+        &:before {
+            display: none;
+        }
+
+
+
+        @include lt-lg {
+            padding: 0px 0px 13px;
+
+            &:before {
+                display: block;
+                bottom: 100% !important;
+                top: unset !important;
+                background-image: url("../../../../_images/dividers/black_top_mobile.png") !important;
+            }
+        }
+
+        .row {
+            .logo {
+                display: flex;
+                align-items: center;
+                position: relative;
+
+                @include gt-custom(1025px) {
+                    width: 200px;
+                }
+
+                a.logo_homepage_footer {
+                    @include gt-custom(1025px) {
+                        display: none;
+                        left: 10px;
+                        top: -21px;
+                    }
+
+
+                    display: block;
+                    position: absolute;
+
+                    z-index: 1;
+
+                    @include lt-lg {
+                        top: unset;
+                        position: relative;
+                    }
+
+                    img {
+                        width: 177px;
+
+                        @include lt-lg {
+                            width: 98px;
+                        }
+                    }
+                }
+
+                a.logo_normal {
+                    position: absolute;
+                    left: 0;
+                    top: -8px;
+
+                    @include lt-custom(1230px) {
+                        left: 15px;
+                        top: 0;
+                    }
+
+                    @include lt-lg {
+                        display: none;
+                    }
+
+                    img {
+                        // transition: max-width .25s;
+                        width: 250px;
+
+                        @include lt-md() {
+                            // max-width: 150px;
+                        }
+                    }
+
+                    h1 {
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .cta {
+                @include lt-lg {
+                    flex: 1 1 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .fm_button {
+                    @include gt-custom(1025px) {
+                        padding: 12px 26px;
+                    }
+                }
+            }
+
+            .navigation {
+                display: flex;
+                flex-wrap: wrap;
+
+                @include lt-lg {
+                    order: 3;
+                    flex: 0 0 auto;
+                }
+
+
+
+                .menu_mobile_trigger_holder {
+                    #menu_mobile_trigger {
+                        display: none;
+                        width: 35px;
+                        height: 20px;
+                        position: relative;
+                        transform: rotate(0deg);
+                        transition: 0.5s ease-in-out;
+                        cursor: pointer;
+                        background-color: transparent;
+                        float: right;
+
+                        span {
+                            display: block;
+                            position: absolute;
+                            height: 2px;
+                            width: 100%;
+                            background: $primary;
+                            border-radius: 0px;
+                            opacity: 1;
+                            left: 0;
+                            transform: rotate(0deg);
+                            transition: 0.25s ease-in-out;
+                        }
+
+                        span:nth-child(1) {
+                            top: 0;
+                        }
+
+                        span:nth-child(2),
+                        span:nth-child(3) {
+                            top: 9px;
+                        }
+
+                        span:nth-child(4) {
+                            top: 18px;
+                        }
+
+                        @include lt-lg() {
+                            display: block;
+                        }
+                    }
+                }
+
+                .menu_wrap {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+
+                    @include lt-lg() {
+                        display: none;
+                        // position: absolute;
+                        // left: 0;
+                        // width: 100%;
+                        // bottom: -300px;
+                        // transition: top .5s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include gt-custom(1025px) {
+    body.scrolled {
+        &.admin-bar {
+            header {
+                @include gt-sm {
+                    top: 32px;
+                }
+            }
+        }
+
+        header {
+            // css rules for the header when scrolled
+            position: fixed;
+
+            top: 0px;
+
+            .hold_header {
+                .header_row {
+                    .logo {
+                        a {
+                            img {
+                                // max-width: 124px;
+
+                                @include lt-md {
+                                    // max-width: 150px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

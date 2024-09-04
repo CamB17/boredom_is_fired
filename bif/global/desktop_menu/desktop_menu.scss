@@ -1,0 +1,63 @@
+@import "sass-globals";
+
+ul.menu_header,
+ul.menu_footer {
+    li {
+        list-style: none;
+        &.menu_header_item_active {
+            >a {
+                text-decoration: underline;
+                &:hover {
+                    text-decoration: none;
+                }
+                &.no_link {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        &.menu_header_item_parent {
+            >a {
+                padding-right: 18px;
+                position: relative;
+
+                &:before {
+                    content: " ";
+                    width: 19px;
+                    height: 28px;
+                    position: absolute;
+                    background-image: url(../../../../_images/icon_caret.svg);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    right: 0;
+                    top: -1px;
+                    transform: rotate(90deg);
+                }
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &.bold_label {
+            font-weight: bold;
+        }
+
+        &.no_link {
+            &:hover {
+                cursor: default;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+ul.menu_header {
+    float: right;
+    
+}

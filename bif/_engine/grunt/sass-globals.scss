@@ -1,0 +1,12 @@
+// for some reason the loadPath option in grunt simply won't work
+// therefore, this needs to stay here in order to allow for global
+// importing without having to specify the relative url
+@import "../../styles/variables/_variables";
+@import "../../styles/mixins/_mixins";
+@import "../../styles/mixins/_responsive";
+@import "../../styles/mixins/_margin_padding";
+@import "../../styles/html_elements/p/_p";
+@import "../../styles/html_elements/h/_h";
+@import "../../styles/bg_colors/bg_light/_bg_light";
+@import "../../styles/bg_colors/bg_dark/_bg_dark";
+

@@ -1,0 +1,58 @@
+/* line 5, ../../global/desktop_menu/desktop_menu.scss */
+ul.menu_header li,
+ul.menu_footer li {
+  list-style: none; }
+  /* line 8, ../../global/desktop_menu/desktop_menu.scss */
+  ul.menu_header li.menu_header_item_active > a,
+  ul.menu_footer li.menu_header_item_active > a {
+    text-decoration: underline; }
+    /* line 10, ../../global/desktop_menu/desktop_menu.scss */
+    ul.menu_header li.menu_header_item_active > a:hover,
+    ul.menu_footer li.menu_header_item_active > a:hover {
+      text-decoration: none; }
+    /* line 13, ../../global/desktop_menu/desktop_menu.scss */
+    ul.menu_header li.menu_header_item_active > a.no_link,
+    ul.menu_footer li.menu_header_item_active > a.no_link {
+      text-decoration: none; }
+  /* line 20, ../../global/desktop_menu/desktop_menu.scss */
+  ul.menu_header li.menu_header_item_parent > a,
+  ul.menu_footer li.menu_header_item_parent > a {
+    padding-right: 18px;
+    position: relative; }
+    /* line 24, ../../global/desktop_menu/desktop_menu.scss */
+    ul.menu_header li.menu_header_item_parent > a:before,
+    ul.menu_footer li.menu_header_item_parent > a:before {
+      content: " ";
+      width: 19px;
+      height: 28px;
+      position: absolute;
+      background-image: url(../../../../_images/icon_caret.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      right: 0;
+      top: -1px;
+      transform: rotate(90deg); }
+
+/* line 40, ../../global/desktop_menu/desktop_menu.scss */
+ul.menu_header a,
+ul.menu_footer a {
+  text-decoration: none; }
+  /* line 43, ../../global/desktop_menu/desktop_menu.scss */
+  ul.menu_header a:hover,
+  ul.menu_footer a:hover {
+    text-decoration: underline; }
+  /* line 47, ../../global/desktop_menu/desktop_menu.scss */
+  ul.menu_header a.bold_label,
+  ul.menu_footer a.bold_label {
+    font-weight: bold; }
+  /* line 52, ../../global/desktop_menu/desktop_menu.scss */
+  ul.menu_header a.no_link:hover,
+  ul.menu_footer a.no_link:hover {
+    cursor: default;
+    text-decoration: none; }
+
+/* line 60, ../../global/desktop_menu/desktop_menu.scss */
+ul.menu_header {
+  float: right; }
+
+/*# sourceMappingURL=desktop_menu.css.map */

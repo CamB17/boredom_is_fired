@@ -1,0 +1,713 @@
+{
+    "key": "group_57c99c195c25d",
+    "title": "Global: Options",
+    "fields": [
+        {
+            "key": "field_57c99c218d214",
+            "label": "Header",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0,
+            "selected": 0,
+            "no_preference": 0
+        },
+        {
+            "key": "field_65f224bc8729e",
+            "label": "Logo",
+            "name": "logo",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "uploader": "",
+            "return_format": "array",
+            "library": "all",
+            "upload_folder": "",
+            "acfe_thumbnail": 0,
+            "required_message": "",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_57c99f4388564",
+            "label": "Logo (Homepage, Footer)",
+            "name": "logo_homepage_footer",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "uploader": "",
+            "return_format": "array",
+            "library": "all",
+            "upload_folder": "",
+            "acfe_thumbnail": 0,
+            "required_message": "",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_65f224c98729f",
+            "label": "Header CTA Button",
+            "name": "header_cta_button",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "field_5952c6ec878f6",
+                "field_5952c6ec87a71",
+                "field_5952c6ec87ae5",
+                "field_5952c6ec87b59",
+                "field_5952c6ec87bcd",
+                "field_65d7593c9a8f2"
+            ],
+            "display": "group",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0,
+            "acfe_seamless_style": 0,
+            "acfe_clone_modal": 0,
+            "acfe_clone_modal_close": 0,
+            "acfe_clone_modal_button": "",
+            "acfe_clone_modal_size": "large"
+        },
+        {
+            "key": "field_57c99c338d215",
+            "label": "Footer",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0,
+            "no_preference": 0
+        },
+        {
+            "key": "field_66d1c91508d80",
+            "label": "Social Icons",
+            "name": "social_icons",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_repeater_stylised_button": 0,
+            "layout": "table",
+            "pagination": 0,
+            "rows_per_page": 20,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_66d1c92208d81",
+                    "label": "Icon",
+                    "name": "icon",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "uploader": "",
+                    "return_format": "array",
+                    "library": "all",
+                    "upload_folder": "",
+                    "acfe_thumbnail": 0,
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_66d1c91508d80"
+                },
+                {
+                    "key": "field_66d1c93208d82",
+                    "label": "URL",
+                    "name": "url",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_66d1c91508d80"
+                },
+                {
+                    "key": "field_66d1c93608d83",
+                    "label": "Name",
+                    "name": "name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "IE: YouTube",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "required_message": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_66d1c91508d80"
+                }
+            ]
+        },
+        {
+            "key": "field_66d1f3f693ba0",
+            "label": "Newsletter",
+            "name": "newsletter",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "acfe_wysiwyg_auto_init": 0,
+            "acfe_wysiwyg_height": 300,
+            "acfe_wysiwyg_min_height": 300,
+            "acfe_wysiwyg_max_height": "",
+            "acfe_wysiwyg_valid_elements": "",
+            "acfe_wysiwyg_custom_style": "",
+            "acfe_wysiwyg_disable_wp_style": 0,
+            "acfe_wysiwyg_autoresize": 0,
+            "acfe_wysiwyg_disable_resize": 0,
+            "acfe_wysiwyg_remove_path": 0,
+            "acfe_wysiwyg_menubar": 0,
+            "acfe_wysiwyg_transparent": 0,
+            "acfe_wysiwyg_merge_toolbar": 0,
+            "acfe_wysiwyg_custom_toolbar": 0,
+            "acfe_wysiwyg_toolbar_buttons": {
+                "acfe_wysiwyg_toolbar_1": {
+                    "row-row-0": {
+                        "acfe_wysiwyg_toolbar_row": "styleselect"
+                    },
+                    "row-row-1": {
+                        "acfe_wysiwyg_toolbar_row": "bold"
+                    },
+                    "row-row-2": {
+                        "acfe_wysiwyg_toolbar_row": "italic"
+                    },
+                    "row-row-3": {
+                        "acfe_wysiwyg_toolbar_row": "link"
+                    },
+                    "row-row-4": {
+                        "acfe_wysiwyg_toolbar_row": "unlink"
+                    },
+                    "row-row-5": {
+                        "acfe_wysiwyg_toolbar_row": "bullist"
+                    },
+                    "row-row-6": {
+                        "acfe_wysiwyg_toolbar_row": "numlist"
+                    },
+                    "row-row-7": {
+                        "acfe_wysiwyg_toolbar_row": "removeformat"
+                    },
+                    "row-row-8": {
+                        "acfe_wysiwyg_toolbar_row": "charmap"
+                    },
+                    "row-row-9": {
+                        "acfe_wysiwyg_toolbar_row": "fullscreen"
+                    }
+                },
+                "acfe_wysiwyg_toolbar_2": "",
+                "acfe_wysiwyg_toolbar_3": "",
+                "acfe_wysiwyg_toolbar_4": ""
+            },
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_57d03b5b9238f",
+            "label": "Copyright Notice",
+            "name": "copyright_notice",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "To use the copyright symbol, copy and paste the following symbol: &copy;. To add the current year, type [year].",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5971295a1c0df",
+            "label": "Sub Footer Links",
+            "name": "sub_footer_links",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "This is for links like Terms of Service and Privacy Policy at the very bottom of the page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_597129c77a665",
+                    "label": "Link Text",
+                    "name": "link_text",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5971295a1c0df"
+                },
+                {
+                    "key": "field_597129841c0e0",
+                    "label": "Link URL",
+                    "name": "link_url",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "parent_repeater": "field_5971295a1c0df"
+                }
+            ],
+            "rows_per_page": 20,
+            "acfe_repeater_stylised_button": 0
+        },
+        {
+            "key": "field_57c99c487254b",
+            "label": "Developer",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0,
+            "no_preference": 0
+        },
+        {
+            "key": "field_5ed95d6da77e2",
+            "label": "WP Login Background Color",
+            "name": "wp_login_background_color",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": false,
+            "return_format": "string",
+            "display": "default",
+            "button_label": "Select Color",
+            "color_picker": true,
+            "absolute": false,
+            "input": true,
+            "allow_null": true,
+            "theme_colors": false,
+            "colors": []
+        },
+        {
+            "key": "field_5ed960ebd9455",
+            "label": "WP Login Use White Text?",
+            "name": "wp_login_use_white_text",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "If the background color is dark, check this box to use white text.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "style": ""
+        },
+        {
+            "key": "field_58e6bdb61f6fe",
+            "label": "Favicon",
+            "name": "favicon",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Upload your favicon here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "uploader": "",
+            "acfe_thumbnail": 0,
+            "upload_folder": ""
+        },
+        {
+            "key": "field_58e6b5dff2c71",
+            "label": "Google Fonts",
+            "name": "google_fonts",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Paste the Google Fonts URL here (make sure to use the https URL)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_58e6b60ff2c72",
+                    "label": "Font Name",
+                    "name": "font_name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Example: \"droid-serif\", this is fairly unimportant.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0,
+                    "parent_repeater": "field_58e6b5dff2c71"
+                },
+                {
+                    "key": "field_58e6b69168d37",
+                    "label": "Font URL",
+                    "name": "font_url",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Example: https:\/\/fonts.googleapis.com\/css?family=Lato:300,400,400i,700",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0,
+                    "parent_repeater": "field_58e6b5dff2c71"
+                }
+            ],
+            "rows_per_page": 20,
+            "acfe_repeater_stylised_button": 0
+        },
+        {
+            "key": "field_57c99c9d7254c",
+            "label": "Header Code",
+            "name": "header_code",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "This code will load right before the <\/head> tag.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0,
+            "acfe_textarea_code": 0
+        },
+        {
+            "key": "field_57c99cc87254d",
+            "label": "Footer Code",
+            "name": "footer_code",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "This code will load right before the <\/body> tag.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0,
+            "acfe_textarea_code": 0
+        },
+        {
+            "key": "field_5970f2b86e50d",
+            "label": "Tag Manager Script Code",
+            "name": "tag_manager_script_code",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "acfe_textarea_code": 0
+        },
+        {
+            "key": "field_5970f2cb6e50e",
+            "label": "Tag Manager Noscript Code",
+            "name": "tag_manager_noscript_code",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "acfe_textarea_code": 0
+        },
+        {
+            "key": "field_652840f43b855",
+            "label": "Site Name",
+            "name": "site_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "required_message": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "acfe_field_group_condition": 1
+        },
+        {
+            "key": "field_66158ded2e311",
+            "label": "Admin Message",
+            "name": "admin_message",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "acfe_textarea_code": 0,
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1725035524,
+    "acfe_categories": {
+        "global": "Global"
+    }
+}

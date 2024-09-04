@@ -1,0 +1,25 @@
+/* line 3, ../../fm_assorted/video_embed/fm_video_embed.scss */
+.fm_video_embed {
+  position: relative;
+  color: #fbc34a; }
+  /* line 7, ../../fm_assorted/video_embed/fm_video_embed.scss */
+  .fm_video_embed .play_icon_hold {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; }
+    /* line 19, ../../fm_assorted/video_embed/fm_video_embed.scss */
+    .fm_video_embed .play_icon_hold:hover svg {
+      width: 20%; }
+    /* line 24, ../../fm_assorted/video_embed/fm_video_embed.scss */
+    .fm_video_embed .play_icon_hold svg {
+      transition: width .15s;
+      width: 18%;
+      min-width: 60px; }
+
+/*# sourceMappingURL=fm_video_embed.css.map */

@@ -1,0 +1,12 @@
+@import "sass-globals";
+
+body #moove_gdpr_cookie_info_bar {
+    background-color: rgba(0, 0, 0, .8) !important;
+    border-top: 0px !important;
+
+    .moove-gdpr-button-holder {
+        button {
+            color: $black !important;
+        }
+    }
+}

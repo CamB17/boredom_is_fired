@@ -1,0 +1,45 @@
+@import "sass-globals";
+
+.fm_resource_feed {
+    @include padding;
+
+    .headline {
+
+
+        .text {
+
+            h2 {
+                margin-bottom: 4px;
+            }
+        }
+
+        .link {
+
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            @include lt-md {
+                align-items: flex-start;
+                margin-top: 15px;
+            }
+
+
+            .fm_button {
+                margin: 0px;
+            }
+        }
+    }
+
+    .resources {
+        margin-top:15px;
+        @include lt-lg {
+            flex-flow: nowrap;
+            overflow-x: scroll;
+        }
+
+        .fm_article_box {
+            margin-bottom: 10px;
+        }
+    }
+}

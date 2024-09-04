@@ -1,0 +1,43 @@
+/* line 6, ../../styles/html_elements/body/body.scss */
+body.is_module_preview {
+  padding-top: 0px;
+  margin-top: -32px !important; }
+  /* line 10, ../../styles/html_elements/body/body.scss */
+  body.is_module_preview header,
+  body.is_module_preview section:not(.module_preview),
+  body.is_module_preview footer,
+  body.is_module_preview #wpadminbar {
+    display: none !important; }
+
+/* line 36, ../../styles/html_elements/body/body.scss */
+body.mobile_menu_active .fm_mobile_menu_container {
+  height: 100% !important;
+  opacity: 100% !important; }
+
+/* line 46, ../../styles/html_elements/body/body.scss */
+body.mobile_menu_active .hold_header .navigation .menu_mobile_trigger_holder #menu_mobile_trigger span:nth-child(1) {
+  top: 12px;
+  width: 0%;
+  left: 50%; }
+
+/* line 52, ../../styles/html_elements/body/body.scss */
+body.mobile_menu_active .hold_header .navigation .menu_mobile_trigger_holder #menu_mobile_trigger span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/* line 59, ../../styles/html_elements/body/body.scss */
+body.mobile_menu_active .hold_header .navigation .menu_mobile_trigger_holder #menu_mobile_trigger span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+/* line 66, ../../styles/html_elements/body/body.scss */
+body.mobile_menu_active .hold_header .navigation .menu_mobile_trigger_holder #menu_mobile_trigger span:nth-child(4) {
+  top: 12px;
+  width: 0%;
+  left: 50%; }
+
+/*# sourceMappingURL=body.css.map */

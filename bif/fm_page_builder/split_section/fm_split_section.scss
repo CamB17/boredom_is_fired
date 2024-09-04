@@ -1,0 +1,46 @@
+@import "sass-globals";
+
+.fm_split_section {
+    padding: 0px;
+
+    .row {
+        .hold_image {
+
+            @include lt-md {
+                padding-bottom: 40px;
+            }
+
+            img {
+                border-radius: 16px;
+            }
+        }
+
+        .hold_content {
+            display: flex;
+            // padding: 100px 50px 100px 80px;
+
+            .content {
+
+                max-width: 490px;
+
+                .button {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+
+        &.content_first {
+            .hold_content {
+                // justify-content: flex-end;
+                // padding: 100px 80px 100px 50px;
+            }
+
+            .hold_image {
+                @include gt-sm {
+                    order: 2;
+                }
+            }
+        }
+
+    }
+}

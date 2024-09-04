@@ -1,0 +1,183 @@
+{
+    "key": "group_5988c6146e821",
+    "title": "Clone: Adv. Settings",
+    "fields": [
+        {
+            "key": "field_5d4ce61d8143f",
+            "label": "Instructions",
+            "name": "",
+            "aria-label": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "message": "This tab is for advanced use only and contains advanced settings for additional customization. Not every setting will take affect for every module. For example, modules with a Background Image cannot have a new Background Color assigned.",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_6065d20e938e0",
+            "label": "Hide Module",
+            "name": "hide_module",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Set to inactive to remove from the frontend without deleting from the Database",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Hide",
+            "ui_off_text": "Show",
+            "style": ""
+        },
+        {
+            "key": "field_5a0b6b07a7a07",
+            "label": "Custom ID",
+            "name": "custom_id",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Instead of giving this a custom class you can add a custom ID. This is especially useful for the in-page navigation. This should not include the hashtag. Example: content",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5988d24d6cc90",
+            "label": "Custom CSS Classes",
+            "name": "custom_css_classes",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Add one or multiple CSS classes to this module, separated by one space. Ex: \"class_one class_two class_three\".",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5988d2876cc91",
+            "label": "Custom Inline CSS",
+            "name": "custom_inline_css",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Example: \"color:#000000;text-align:center;\". It's important to add the semi colon to the end of this string and to not have any spaces between rules.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_65f37f4afd3bd",
+            "label": "Remove Top Wave",
+            "name": "remove_top_wave",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1,
+            "style": ""
+        },
+        {
+            "key": "field_65f37d5b06466",
+            "label": "Remove Bottom Wave",
+            "name": "remove_bottom_wave",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "message": "",
+            "default_value": 0,
+            "style": "",
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1711126802,
+    "acfe_categories": {
+        "clone-group": "Clone Group"
+    }
+}

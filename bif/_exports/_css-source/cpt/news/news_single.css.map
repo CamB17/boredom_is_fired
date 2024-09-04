@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "news_single.css",
+	"sources": [
+		"../../../../cpt/news/news_single.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../styles/variables/_variables.scss",
+		"../../../../styles/mixins/_mixins.scss",
+		"../../../../styles/mixins/_responsive.scss",
+		"../../../../styles/mixins/_margin_padding.scss",
+		"../../../../styles/html_elements/p/_p.scss",
+		"../../../../styles/html_elements/h/_h.scss",
+		"../../../../styles/bg_colors/bg_light/_bg_light.scss",
+		"../../../../styles/bg_colors/bg_dark/_bg_dark.scss"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,YAAY,CAAC;EKAT,WAAW,EAAE,mBAAmB;EAChC,cAAc,EAAE,mBAAmB,GLQtC;;EATD,AKGI,YLHQ,AKGP,SAAS,CAAC;IACP,WAAW,EAAE,IAAI;IACjB,cAAc,EAAE,IAAI,GACvB;ED6CD,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;;IJnD7C,AAAA,YAAY,CAAC;MKSL,WAAW,EAAE,IAAI;MACjB,cAAc,EAAE,IAAI,GLD3B;EIgDG,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;;IJzD5C,AAAA,YAAY,CAAC;MKcL,WAAW,EAAE,IAAI;MACjB,cAAc,EAAE,IAAI,GLN3B;;EATD,AAIY,YAJA,CAER,IAAI,CACA,QAAQ,CACJ,OAAO,AAAA,KAAK,CAAC;IACT,MAAM,EAAE,YAAY,GACvB"
+}

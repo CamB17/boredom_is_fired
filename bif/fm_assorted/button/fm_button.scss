@@ -1,0 +1,86 @@
+@import "sass-globals";
+
+// styles here should be for the base button and not include any styles that should only apply to one specific background color or background color type. anything that would be specific to a background coloring (.bg_white, .bg_light, .bg_dark, etc) should be in the mixins.
+.fm_button {
+    margin-left: 12px;
+    transition: border-color .25s, color .25s, background-color .25s;
+    text-decoration: none;
+    display: inline-block;
+    text-align:center;
+
+    &:first-of-type {
+        margin-left: 0px;
+    }
+
+    &.large {}
+
+    &.gform_button {
+        background-color: map-get($foundation-palette, primary) !important;
+    }
+
+    &.primary {}
+
+    &.secondary {}
+
+    &.primary,
+    &.secondary,
+    &.tertiary {
+        padding: 15px 30px;
+        font-size: 18px;
+        border-radius: 27px;
+        line-height: 1;
+        font-weight: $weight_semi_bold;
+        border: 1px solid transparent;
+
+        @include lt-lg {
+            font-size: 16px;
+            padding: 10px 17px;
+        }
+    }
+
+    &.text {
+
+        background-color: transparent;
+        font-weight: $weight_extra_bold;
+        font-size: 20px;
+        line-height: 1;
+        position: relative;
+        padding-right: 13px;
+
+
+
+        &:hover,
+        &:focus-visible {
+            &:before {
+                content: '';
+                height: 1px;
+                bottom: 0px;
+                width: 100%;
+                left: 0;
+                position: absolute;
+                background-color: currentColor;
+            }
+        }
+
+        svg {
+            position: absolute;
+            right: 0;
+            top: 5px;
+            width: 7px;
+            height: 11px;
+        }
+
+        @include lt-lg {
+            font-size: 16px;
+            padding-right: 13px;
+
+            svg {
+                top: 3px;
+                width: 6px;
+            }
+        }
+
+    }
+}
+
+// read the text at the top. very likely shouldnt be defining anything nested under .bg_light, .bg_dark, etc here. those should be done in the mixins. hit up dan if you have questions.

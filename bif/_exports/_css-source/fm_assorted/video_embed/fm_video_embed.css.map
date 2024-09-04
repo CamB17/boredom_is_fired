@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "fm_video_embed.css",
+	"sources": [
+		"../../../../fm_assorted/video_embed/fm_video_embed.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../styles/variables/_variables.scss",
+		"../../../../styles/mixins/_mixins.scss",
+		"../../../../styles/mixins/_responsive.scss",
+		"../../../../styles/mixins/_margin_padding.scss",
+		"../../../../styles/html_elements/p/_p.scss",
+		"../../../../styles/html_elements/h/_h.scss",
+		"../../../../styles/bg_colors/bg_light/_bg_light.scss",
+		"../../../../styles/bg_colors/bg_dark/_bg_dark.scss"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,eAAe,CAAC;EACZ,QAAQ,EAAE,QAAQ;EAClB,KAAK,EECA,OAAO,GFwBf;;EA3BD,AAII,eAJW,CAIX,eAAe,CAAC;IACZ,QAAQ,EAAE,QAAQ;IAClB,IAAI,EAAE,CAAC;IACP,GAAG,EAAE,CAAC;IACN,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;IACZ,OAAO,EAAE,IAAI;IACb,WAAW,EAAE,MAAM;IACnB,eAAe,EAAE,MAAM;IACvB,MAAM,EAAE,OAAO,GAalB;;IA1BL,AAgBY,eAhBG,CAIX,eAAe,AAWV,MAAM,CACH,GAAG,CAAC;MACA,KAAK,EAAE,GAAG,GACb;;IAlBb,AAqBQ,eArBO,CAIX,eAAe,CAiBX,GAAG,CAAC;MACA,UAAU,EAAE,UAAU;MACtB,KAAK,EAAE,GAAG;MACV,SAAS,EAAE,IAAI,GAClB"
+}

@@ -1,0 +1,133 @@
+/* line 3, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+.fm_testimonials_stats {
+  padding-top: calc(8.93vw + 10px);
+  padding-bottom: calc(8.93vw + 10px); }
+  /* line 5, ../../styles/mixins/_margin_padding.scss */
+  .fm_testimonials_stats.bg_white {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  @media only screen and (max-width: 1024px) {
+    /* line 3, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+    .fm_testimonials_stats {
+      padding-top: 90px;
+      padding-bottom: 90px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 3, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+    .fm_testimonials_stats {
+      padding-top: 70px;
+      padding-bottom: 70px; } }
+  /* line 7, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+  .fm_testimonials_stats .boxes .box {
+    margin-bottom: 35px; }
+    /* line 11, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+    .fm_testimonials_stats .boxes .box.testimonial .hold_testimonial {
+      border-radius: 26px;
+      padding: 45px 24px; }
+      @media only screen and (max-width: 640px) {
+        /* line 11, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+        .fm_testimonials_stats .boxes .box.testimonial .hold_testimonial {
+          padding: 13px 17px 32px; } }
+      @media only screen and (max-width: 640px) {
+        /* line 20, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+        .fm_testimonials_stats .boxes .box.testimonial .hold_testimonial .quote_icon img {
+          max-width: 35px; } }
+      /* line 28, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+      .fm_testimonials_stats .boxes .box.testimonial .hold_testimonial .content .quote {
+        margin-top: 12px; }
+        @media only screen and (max-width: 640px) {
+          /* line 31, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+          .fm_testimonials_stats .boxes .box.testimonial .hold_testimonial .content .quote p.small {
+            margin-bottom: 12px; } }
+        @media only screen and (min-width: 1200px) {
+          /* line 37, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+          .fm_testimonials_stats .boxes .box.testimonial .hold_testimonial .content .quote .h5 {
+            margin-top: 25px; } }
+      /* line 45, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+      .fm_testimonials_stats .boxes .box.testimonial .hold_testimonial .content .photo img {
+        border-radius: 1000px; }
+    @media only screen and (min-width: 1024px) {
+      /* line 60, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+      .fm_testimonials_stats .boxes .box.stat .hold_stat {
+        margin-top: 30px; } }
+    /* line 67, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+    .fm_testimonials_stats .boxes .box.stat .hold_stat.purple h2,
+    .fm_testimonials_stats .boxes .box.stat .hold_stat.purple p {
+      color: #9091ce; }
+    /* line 75, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+    .fm_testimonials_stats .boxes .box.stat .hold_stat.blue h2,
+    .fm_testimonials_stats .boxes .box.stat .hold_stat.blue p {
+      color: #50c1e3; }
+    /* line 83, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+    .fm_testimonials_stats .boxes .box.stat .hold_stat.green h2,
+    .fm_testimonials_stats .boxes .box.stat .hold_stat.green p {
+      color: #5fc290; }
+    /* line 91, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+    .fm_testimonials_stats .boxes .box.stat .hold_stat.orange h2,
+    .fm_testimonials_stats .boxes .box.stat .hold_stat.orange p {
+      color: #fb8d4d; }
+    @media only screen and (min-width: 1024px) {
+      /* line 99, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+      .fm_testimonials_stats .boxes .box.stat .hold_stat .row .stat,
+      .fm_testimonials_stats .boxes .box.stat .hold_stat .row .icon {
+        flex: 0 0 auto; } }
+    @media only screen and (max-width: 640px) {
+      /* line 107, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+      .fm_testimonials_stats .boxes .box.stat .hold_stat .row .stat {
+        order: 1;
+        flex: 0 0 75%;
+        display: flex;
+        align-items: center; } }
+    /* line 115, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+    .fm_testimonials_stats .boxes .box.stat .hold_stat .row .stat p {
+      font-weight: 800;
+      font-size: 85px;
+      line-height: 1; }
+      @media only screen and (max-width: 1024px) {
+        /* line 115, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+        .fm_testimonials_stats .boxes .box.stat .hold_stat .row .stat p {
+          font-size: 55px; } }
+    @media only screen and (max-width: 640px) {
+      /* line 127, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+      .fm_testimonials_stats .boxes .box.stat .hold_stat .row .icon {
+        display: none; } }
+    @media only screen and (max-width: 640px) {
+      /* line 135, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+      .fm_testimonials_stats .boxes .box.stat .hold_stat .row .headline {
+        order: 2; } }
+    /* line 140, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+    .fm_testimonials_stats .boxes .box.stat .hold_stat .row .headline h2 {
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 36px;
+      letter-spacing: -.89px;
+      font-family: "DM Sans"; }
+      @media only screen and (max-width: 1024px) {
+        /* line 140, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+        .fm_testimonials_stats .boxes .box.stat .hold_stat .row .headline h2 {
+          font-size: 24px;
+          line-height: 27px;
+          letter-spacing: -.5px; } }
+    /* line 154, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+    .fm_testimonials_stats .boxes .box.stat .hold_stat .row .headline p {
+      margin-top: 12px;
+      font-size: 20px;
+      letter-spacing: -.56px;
+      color: #0a0a0a; }
+      @media only screen and (max-width: 1024px) {
+        /* line 154, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+        .fm_testimonials_stats .boxes .box.stat .hold_stat .row .headline p {
+          font-size: 16px;
+          letter-spacing: -.3px; } }
+    @media only screen and (max-width: 1024px) {
+      /* line 167, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+      .fm_testimonials_stats .boxes .box.stat .hold_stat .row .icon {
+        margin-top: 20px; } }
+    /* line 172, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+    .fm_testimonials_stats .boxes .box.stat .hold_stat .row .icon .fm_icon {
+      width: 100px; }
+      @media only screen and (max-width: 640px) {
+        /* line 172, ../../fm_page_builder/testimonials_stats/fm_testimonials_stats.scss */
+        .fm_testimonials_stats .boxes .box.stat .hold_stat .row .icon .fm_icon {
+          width: 100%; } }
+
+/*# sourceMappingURL=fm_testimonials_stats.css.map */

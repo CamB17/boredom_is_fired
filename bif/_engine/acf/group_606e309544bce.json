@@ -1,0 +1,403 @@
+{
+    "key": "group_606e309544bce",
+    "title": "CPT: Post Type",
+    "fields": [
+        {
+            "key": "field_606e326fd661f",
+            "label": "Post Type",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "placement": "left",
+            "endpoint": 0,
+            "no_preference": 0
+        },
+        {
+            "key": "field_606e309bd6619",
+            "label": "Singular Name",
+            "name": "singular_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Ex: \"Post\"",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_606e30aad661a",
+            "label": "Plural Name",
+            "name": "plural_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Ex: \"Posts\"",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_606e30c8d661b",
+            "label": "Post Type Key",
+            "name": "post_type_key",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "This is what the post type will be called programmatically. Should only contain lowercase letters and dashes. ex: \"post\"",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_606e34efae74c",
+            "label": "Public?",
+            "name": "public",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Set this to true for post types that will have their own single post pages.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "message": "",
+            "default_value": 1,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "style": ""
+        },
+        {
+            "key": "field_606e31f7d661d",
+            "label": "Use WordPress Archive?",
+            "name": "use_wordpress_archive",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "If true, this post type will use the default WordPress archive functionality and you'll have the option of choosing where that archive lives (with the slug below). If false you'll need to create your own archive (usually by putting a page builder module onto a page) and this post type slug will default to the URL of the page the archive is assigned to.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "style": ""
+        },
+        {
+            "key": "field_606e30f0d661c",
+            "label": "URL Slug",
+            "name": "url_slug",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "This is what you see in the URL before the post. It should only contain a slash if it's to separate two different directories. \r\n\r\n\"blog\" => https:\/\/example.com\/blog\/post-slug\/\r\n\"about-us\/blog\" => https:\/\/example.com\/about-us\/blot\/post-slug\/",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_606e31f7d661d",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_606e3226d661e",
+            "label": "Archive Page",
+            "name": "archive_page",
+            "aria-label": "",
+            "type": "post_object",
+            "instructions": "Link the page that contains the archive for this post type.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_606e31f7d661d",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "post_type": [
+                "page"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "return_format": "object",
+            "multiple": 0,
+            "min": "",
+            "max": "",
+            "save_custom": 0,
+            "save_post_type": "post",
+            "save_post_status": "publish",
+            "acfe_add_post": 0,
+            "acfe_edit_post": 0,
+            "acfe_bidirectional": {
+                "acfe_bidirectional_enabled": "0",
+                "acfe_bidirectional_related": ""
+            },
+            "required_message": "",
+            "allow_null": 1,
+            "ui": 1
+        },
+        {
+            "key": "field_606e32ead6623",
+            "label": "Customizations",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "placement": "top",
+            "endpoint": 0,
+            "no_preference": 0
+        },
+        {
+            "key": "field_606e329ad6621",
+            "label": "Default Image",
+            "name": "default_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Assign an image to be default for this post type if no Featured Image is assigned.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "uploader": "",
+            "acfe_thumbnail": 0,
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "upload_folder": ""
+        },
+        {
+            "key": "field_606e32bad6622",
+            "label": "Dashboard Icon",
+            "name": "dashboard_icon",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "See the <a href=\"https:\/\/developer.wordpress.org\/resource\/dashicons\/\" target=\"_blank\">dashicons reference<\/a>.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6089cef11d6ef",
+            "label": "Hide SEO Metabox?",
+            "name": "hide_seo_metabox",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "If true, the default SEO meta box will be hidden from this post type's admin page.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "style": ""
+        },
+        {
+            "key": "field_606e3309d6624",
+            "label": "Taxonomies",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "placement": "top",
+            "endpoint": 0,
+            "no_preference": 0
+        },
+        {
+            "key": "field_606e332bd6625",
+            "label": "Taxonomies",
+            "name": "taxonomies",
+            "aria-label": "",
+            "type": "acfe_taxonomies",
+            "instructions": "Assign this post type to specific taxonomies.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "required_message": "",
+            "taxonomy": "",
+            "field_type": "checkbox",
+            "min": "",
+            "max": "",
+            "default_value": [],
+            "return_format": "name",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "search_placeholder": "",
+            "other_choice": 0,
+            "layout": "vertical",
+            "toggle": 0,
+            "allow_custom": 0,
+            "choices": []
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post-types"
+            },
+            {
+                "param": "post_title",
+                "operator": "!=",
+                "value": "Post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "author",
+        "block_editor",
+        "categories",
+        "comments",
+        "the_content",
+        "discussion",
+        "excerpt",
+        "featured_image",
+        "format",
+        "trash",
+        "page_attributes",
+        "permalink",
+        "preview",
+        "publish_date",
+        "revisions",
+        "save_draft",
+        "send-trackbacks",
+        "slug",
+        "tags"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1690490923,
+    "acfe_categories": {
+        "post-type": "Post Type"
+    }
+}

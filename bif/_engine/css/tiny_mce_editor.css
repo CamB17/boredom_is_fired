@@ -1,0 +1,12 @@
+
+p.large {
+    font-size:110%;
+}
+p.small {
+    font-size:90%;
+}
+blockquote {
+    border-left:3px solid gray;
+    margin-left: 2rem;
+    padding-left: 1rem;
+}

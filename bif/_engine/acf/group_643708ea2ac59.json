@@ -1,0 +1,143 @@
+{
+    "key": "group_643708ea2ac59",
+    "title": "CPT: Alert Bar",
+    "fields": [
+        {
+            "key": "field_647f79ac7c720",
+            "label": "Set As Active",
+            "name": "",
+            "aria-label": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "To set a specific alert bar as active, simply drag it to the top of the <a href=\"\/wp-admin\/edit.php?post_type=alert-bar\" target=\"_blank\">Alert Bar list<\/a>.",
+            "new_lines": "wpautop",
+            "esc_html": 0,
+            "required_message": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_643708ed4075b",
+            "label": "Alert Bar Content",
+            "name": "alert_bar_content",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "acfe_wysiwyg_auto_init": 0,
+            "acfe_wysiwyg_height": 300,
+            "acfe_wysiwyg_min_height": 300,
+            "acfe_wysiwyg_max_height": "",
+            "acfe_wysiwyg_valid_elements": "",
+            "acfe_wysiwyg_custom_style": "",
+            "acfe_wysiwyg_disable_wp_style": 0,
+            "acfe_wysiwyg_autoresize": 0,
+            "acfe_wysiwyg_disable_resize": 0,
+            "acfe_wysiwyg_remove_path": 0,
+            "acfe_wysiwyg_menubar": 0,
+            "acfe_wysiwyg_transparent": 0,
+            "acfe_wysiwyg_merge_toolbar": 0,
+            "acfe_wysiwyg_custom_toolbar": 0,
+            "acfe_wysiwyg_toolbar_buttons": {
+                "acfe_wysiwyg_toolbar_1": {
+                    "row-row-0": {
+                        "acfe_wysiwyg_toolbar_row": "styleselect"
+                    },
+                    "row-row-1": {
+                        "acfe_wysiwyg_toolbar_row": "bold"
+                    },
+                    "row-row-2": {
+                        "acfe_wysiwyg_toolbar_row": "italic"
+                    },
+                    "row-row-3": {
+                        "acfe_wysiwyg_toolbar_row": "link"
+                    },
+                    "row-row-4": {
+                        "acfe_wysiwyg_toolbar_row": "unlink"
+                    },
+                    "row-row-5": {
+                        "acfe_wysiwyg_toolbar_row": "bullist"
+                    },
+                    "row-row-6": {
+                        "acfe_wysiwyg_toolbar_row": "numlist"
+                    },
+                    "row-row-7": {
+                        "acfe_wysiwyg_toolbar_row": "removeformat"
+                    },
+                    "row-row-8": {
+                        "acfe_wysiwyg_toolbar_row": "charmap"
+                    },
+                    "row-row-9": {
+                        "acfe_wysiwyg_toolbar_row": "fullscreen"
+                    }
+                },
+                "acfe_wysiwyg_toolbar_2": "",
+                "acfe_wysiwyg_toolbar_3": "",
+                "acfe_wysiwyg_toolbar_4": ""
+            },
+            "required_message": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "alert-bar"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "author",
+        "block_editor",
+        "categories",
+        "comments",
+        "the_content",
+        "discussion",
+        "excerpt",
+        "featured_image",
+        "format",
+        "permalink",
+        "preview",
+        "revisions",
+        "send-trackbacks",
+        "slug",
+        "tags"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1686075888,
+    "acfe_categories": {
+        "post-type": "Post Type"
+    }
+}

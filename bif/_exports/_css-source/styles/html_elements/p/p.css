@@ -1,0 +1,65 @@
+/* line 3, ../../styles/html_elements/p/p.scss */
+p,
+.p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  line-height: 1.33;
+  font-size: 18px; }
+  @media only screen and (max-width: 640px) {
+    /* line 3, ../../styles/html_elements/p/p.scss */
+    p,
+    .p {
+      margin-bottom: 12px; } }
+  /* line 10, ../../styles/html_elements/p/_p.scss */
+  p:last-child,
+  .p:last-child {
+    margin-bottom: 0px; }
+  @media only screen and (max-width: 640px) {
+    /* line 3, ../../styles/html_elements/p/p.scss */
+    p,
+    .p {
+      font-size: 16px; } }
+  /* line 7, ../../styles/html_elements/p/p.scss */
+  p.large,
+  .p.large {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.33;
+    font-size: 20px; }
+    @media only screen and (max-width: 640px) {
+      /* line 7, ../../styles/html_elements/p/p.scss */
+      p.large,
+      .p.large {
+        margin-bottom: 12px; } }
+    /* line 10, ../../styles/html_elements/p/_p.scss */
+    p.large:last-child,
+    .p.large:last-child {
+      margin-bottom: 0px; }
+    @media only screen and (max-width: 640px) {
+      /* line 7, ../../styles/html_elements/p/p.scss */
+      p.large,
+      .p.large {
+        font-size: 20px; } }
+  /* line 11, ../../styles/html_elements/p/p.scss */
+  p.small,
+  .p.small {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.33;
+    font-size: 16px; }
+    @media only screen and (max-width: 640px) {
+      /* line 11, ../../styles/html_elements/p/p.scss */
+      p.small,
+      .p.small {
+        margin-bottom: 12px; } }
+    /* line 10, ../../styles/html_elements/p/_p.scss */
+    p.small:last-child,
+    .p.small:last-child {
+      margin-bottom: 0px; }
+    @media only screen and (max-width: 640px) {
+      /* line 11, ../../styles/html_elements/p/p.scss */
+      p.small,
+      .p.small {
+        font-size: 14px; } }
+
+/*# sourceMappingURL=p.css.map */

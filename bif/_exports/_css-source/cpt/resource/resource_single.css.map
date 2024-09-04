@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "resource_single.css",
+	"sources": [
+		"../../../../cpt/resource/resource_single.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../styles/variables/_variables.scss",
+		"../../../../styles/mixins/_mixins.scss",
+		"../../../../styles/mixins/_responsive.scss",
+		"../../../../styles/mixins/_margin_padding.scss",
+		"../../../../styles/html_elements/p/_p.scss",
+		"../../../../styles/html_elements/h/_h.scss",
+		"../../../../styles/bg_colors/bg_light/_bg_light.scss",
+		"../../../../styles/bg_colors/bg_dark/_bg_dark.scss"
+	],
+	"names": [],
+	"mappings": ";AAEA,AACI,gBADY,CACZ,IAAI,AAAA,QAAQ,CAAC;EACT,SAAS,EAAE,KAAK,GAUnB;EI4CD,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;;IJxD5C,AACI,gBADY,CACZ,IAAI,AAAA,QAAQ,CAAC;MAIL,SAAS,EAAE,GAAG;MACd,MAAM,EAAE,MAAM,GAMrB;;EAZL,AASQ,gBATQ,CACZ,IAAI,AAAA,QAAQ,CAQR,EAAE,AAAA,KAAK,CAAC;IACJ,aAAa,EAAE,IAAI,GACtB"
+}

@@ -1,0 +1,65 @@
+@import "sass-globals";
+
+.fm_subpage_header {
+    @include padding;
+    padding-top: 90px;
+
+    @include lt-md {
+        padding-top: 20px;
+    }
+
+    &:before {
+        @include gt-sm {
+            display: none;
+        }
+
+        @include lt-md {
+            background-image: url('../../../../_images/dividers/black_top_desktop.svg') !important;
+        }
+    }
+
+    .title {
+        padding-top: 60px;
+        margin-bottom: 80px;
+
+        @include lt-md {
+            margin-bottom: 20px;
+        }
+
+        h1 {}
+    }
+
+    .other_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+
+        img {
+            border-radius: 16px;
+        }
+
+        a.open-popup-link {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &:hover,
+            &:focus {
+                svg {
+                    width: 75px;
+                }
+            }
+
+            svg {
+                width: 65px;
+                transition: width .15s;
+
+            }
+        }
+    }
+
+}

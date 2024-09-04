@@ -1,0 +1,67 @@
+/* line 2, ../../cpt/post/post_archive.scss */
+.blog-archive {
+  padding-top: calc(8.93vw + 10px);
+  padding-bottom: calc(8.93vw + 10px); }
+  /* line 5, ../../styles/mixins/_margin_padding.scss */
+  .blog-archive.bg_white {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  @media only screen and (max-width: 1024px) {
+    /* line 2, ../../cpt/post/post_archive.scss */
+    .blog-archive {
+      padding-top: 90px;
+      padding-bottom: 90px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 2, ../../cpt/post/post_archive.scss */
+    .blog-archive {
+      padding-top: 70px;
+      padding-bottom: 70px; } }
+  /* line 4, ../../cpt/post/post_archive.scss */
+  .blog-archive .blog-post {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #e9edf0; }
+    /* line 8, ../../cpt/post/post_archive.scss */
+    .blog-archive .blog-post:first-of-type {
+      padding-top: 0px; }
+    /* line 12, ../../cpt/post/post_archive.scss */
+    .blog-archive .blog-post .image .image_holder {
+      min-height: 300px;
+      background-size: cover;
+      background-position: center center;
+      cursor: pointer; }
+    /* line 19, ../../cpt/post/post_archive.scss */
+    .blog-archive .blog-post .info {
+      display: flex;
+      align-items: center; }
+      /* line 22, ../../cpt/post/post_archive.scss */
+      .blog-archive .blog-post .info .hold-me {
+        padding-left: 30px; }
+        /* line 24, ../../cpt/post/post_archive.scss */
+        .blog-archive .blog-post .info .hold-me .button {
+          margin: 0px; }
+  /* line 30, ../../cpt/post/post_archive.scss */
+  .blog-archive .pagination {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    margin: 0 auto; }
+    /* line 36, ../../cpt/post/post_archive.scss */
+    .blog-archive .pagination ul {
+      display: inline-block; }
+      /* line 38, ../../cpt/post/post_archive.scss */
+      .blog-archive .pagination ul li {
+        font-size: 20px;
+        margin-right: 0.0625rem;
+        border-radius: 0;
+        font-weight: bold; }
+        /* line 43, ../../cpt/post/post_archive.scss */
+        .blog-archive .pagination ul li a {
+          line-height: 25px;
+          padding: 6px 14px; }
+        /* line 48, ../../cpt/post/post_archive.scss */
+        .blog-archive .pagination ul li span.current {
+          background-color: #fbc34a;
+          padding: 6px 14px; }
+
+/*# sourceMappingURL=post_archive.css.map */

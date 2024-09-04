@@ -1,0 +1,38 @@
+@import "sass-globals";
+
+.fm_search_form {
+    form {
+        display: flex;
+        align-items: center;
+
+        &.active {
+            input {
+                width: 150px;
+            }
+        }
+
+        input {
+            border: 0px;
+            border-bottom: 1px solid $black;
+            width: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 4px;
+            transition: width .25s;
+
+            &:focus {
+                outline: 0px;
+            }
+        }
+
+        button#search_toggle {
+            line-height: 0;
+            font-size: 0px;
+
+            svg {
+                cursor: pointer;
+                width: 26px;
+            }
+        }
+    }
+}

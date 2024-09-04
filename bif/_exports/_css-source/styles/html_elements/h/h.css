@@ -1,0 +1,126 @@
+/* line 3, ../../styles/html_elements/h/h.scss */
+h1,
+.h1 {
+  font-family: "Blackflower";
+  margin-top: 0px;
+  margin-bottom: .2em;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1; }
+  /* line 7, ../../styles/html_elements/h/_h.scss */
+  h1:last-child,
+  .h1:last-child {
+    margin-bottom: 0px; }
+  @media only screen and (max-width: 640px) {
+    /* line 3, ../../styles/html_elements/h/h.scss */
+    h1,
+    .h1 {
+      font-size: 52px; } }
+
+/* line 8, ../../styles/html_elements/h/h.scss */
+h2,
+.h2 {
+  font-family: "Blackflower";
+  margin-top: 0px;
+  margin-bottom: .2em;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1; }
+  /* line 7, ../../styles/html_elements/h/_h.scss */
+  h2:last-child,
+  .h2:last-child {
+    margin-bottom: 0px; }
+  @media only screen and (max-width: 640px) {
+    /* line 8, ../../styles/html_elements/h/h.scss */
+    h2,
+    .h2 {
+      font-size: 36px; } }
+
+/* line 13, ../../styles/html_elements/h/h.scss */
+h3,
+.h3 {
+  font-family: "Blackflower";
+  margin-top: 0px;
+  margin-bottom: .2em;
+  font-weight: 400;
+  font-family: "DM Sans";
+  font-size: 28px;
+  letter-spacing: -.78px;
+  font-weight: 800;
+  line-height: 1.2; }
+  /* line 7, ../../styles/html_elements/h/_h.scss */
+  h3:last-child,
+  .h3:last-child {
+    margin-bottom: 0px; }
+  @media only screen and (max-width: 640px) {
+    /* line 13, ../../styles/html_elements/h/h.scss */
+    h3,
+    .h3 {
+      font-size: 20px; } }
+
+/* line 18, ../../styles/html_elements/h/h.scss */
+h4,
+.h4 {
+  font-family: "Blackflower";
+  margin-top: 0px;
+  margin-bottom: .2em;
+  font-weight: 400;
+  font-family: "DM Sans";
+  font-size: 24px;
+  letter-spacing: -1px;
+  font-weight: 800;
+  line-height: 1.2; }
+  /* line 7, ../../styles/html_elements/h/_h.scss */
+  h4:last-child,
+  .h4:last-child {
+    margin-bottom: 0px; }
+  @media only screen and (max-width: 640px) {
+    /* line 18, ../../styles/html_elements/h/h.scss */
+    h4,
+    .h4 {
+      font-size: 17px; } }
+
+/* line 23, ../../styles/html_elements/h/h.scss */
+h5,
+.h5 {
+  font-family: "Blackflower";
+  margin-top: 0px;
+  margin-bottom: .2em;
+  font-weight: 400;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.2; }
+  /* line 7, ../../styles/html_elements/h/_h.scss */
+  h5:last-child,
+  .h5:last-child {
+    margin-bottom: 0px; }
+  @media only screen and (max-width: 640px) {
+    /* line 23, ../../styles/html_elements/h/h.scss */
+    h5,
+    .h5 {
+      font-size: 14px; } }
+
+/* line 28, ../../styles/html_elements/h/h.scss */
+h6,
+.h6 {
+  font-family: "Blackflower";
+  margin-top: 0px;
+  margin-bottom: .2em;
+  font-weight: 400;
+  font-family: "DM Sans";
+  font-size: 14px;
+  letter-spacing: -.5px;
+  font-weight: 800;
+  line-height: 1.2; }
+  /* line 7, ../../styles/html_elements/h/_h.scss */
+  h6:last-child,
+  .h6:last-child {
+    margin-bottom: 0px; }
+  @media only screen and (max-width: 640px) {
+    /* line 28, ../../styles/html_elements/h/h.scss */
+    h6,
+    .h6 {
+      font-size: 12px; } }
+
+/*# sourceMappingURL=h.css.map */

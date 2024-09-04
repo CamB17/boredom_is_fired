@@ -1,0 +1,9 @@
+@import "sass-globals";
+
+.bg_light {
+    @include bg_light;
+    
+    .bg_dark {
+        @include bg_dark;
+    }
+}

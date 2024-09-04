@@ -1,0 +1,81 @@
+@mixin h {
+    font-family: $headline;
+    margin-top: 0px;
+    margin-bottom: .2em; // bottom margin is 1/3 of font size
+    font-weight: $weight_regular;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+@mixin h1 {
+    @include h;
+    font-size: 80px;
+    line-height: 1;
+
+    @include lt-md {
+        font-size: 52px;
+    }
+}
+
+@mixin h2 {
+    @include h;
+    font-size: 48px;
+    line-height: 1;
+
+    @include lt-md {
+        font-size: 36px;
+    }
+}
+
+@mixin h3 {
+    @include h;
+    font-family: $sans;
+    font-size: 28px;
+    letter-spacing: -.78px;
+    font-weight: $weight_extra_bold;
+    line-height: 1.2;
+
+    @include lt-md {
+        font-size: 20px;
+    }
+}
+
+@mixin h4 {
+    @include h;
+    font-family: $sans;
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: $weight_extra_bold;
+    line-height: 1.2;
+
+    @include lt-md {
+        font-size: 17px;
+    }
+}
+
+@mixin h5 {
+    @include h;
+    font-family: $sans;
+    font-size: 18px;
+    font-weight: $weight_extra_bold;
+    line-height: 1.2;
+
+    @include lt-md {
+        font-size: 14px;
+    }
+}
+
+@mixin h6 {
+    @include h;
+    font-family: $sans;
+    font-size: 14px;
+    letter-spacing: -.5px;
+    font-weight: $weight_extra_bold;
+    line-height: 1.2;
+
+    @include lt-md {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,173 @@
+@import "sass-globals";
+
+footer {
+    @include lt-lg {
+        padding-bottom: 146px;
+    }
+
+    @include lt-md {
+        padding-bottom: 130px;
+    }
+
+    .top_footer {
+        @include padding;
+        padding-bottom: 40px;
+
+        @include lt-lg {
+            padding-top: 19px;
+            padding-bottom: 27px;
+        }
+
+        .row {
+            .logo-menu {
+                @include lt-lg {
+                    >a {
+                        display: none;
+                    }
+                }
+
+                .social_icons {
+                    display: flex;
+                    gap: 1rem;
+                    align-items: center;
+                    margin-top:2rem;
+                }
+
+                img.logo {
+                    width: 183px;
+                }
+
+                nav#footer_menu {
+                    ul {
+                        display: block;
+
+                        margin-top: 50px;
+                        column-count: 2;
+
+                        @include lt-md {
+                            column-count: 2;
+                        }
+
+                        >li {
+                            flex: 0 0 100%;
+
+                            &.is_active {
+                                .hold_link {
+                                    a {
+                                        color: $yellow;
+                                    }
+                                }
+                            }
+
+                            .hold_link {
+                                a {
+                                    font-size: 16px;
+                                    font-weight: $weight_bold;
+                                    position: relative;
+                                    padding-right: 13px;
+
+                                    svg {
+                                        position: absolute;
+                                        right: 0;
+                                        width: 7px;
+                                        top: -1px;
+
+                                        @include lt-lg {
+                                            top: 0px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .newsletter {
+                @include gt-md {
+                    padding-top: 110px;
+                }
+
+                @include lt-lg {
+                    margin-top: calc(8.93vw + 10px);
+                }
+            }
+        }
+    }
+
+    .bottom_footer {
+        .row {
+            position: relative;
+
+            &:after {
+                content: "";
+                background-color: $yellow;
+                width: 100%;
+                height: 1px;
+                position: absolute;
+                left: 15px;
+                top: 0;
+                width: calc(100% - 30px);
+
+                @include lt-xl {
+                    width: calc(100% - 20px);
+                    left: 10px;
+                }
+            }
+
+            .columns {
+                display: flex;
+                align-items: center;
+                padding-top: 40px;
+                padding-bottom: 40px;
+
+                @include lt-lg {
+                    padding-top: 28px;
+                    padding-bottom: 10px;
+                }
+
+                &.copyright {
+                    @include gt-md {
+                        flex: 0 0 auto;
+                    }
+                }
+
+                &.links {
+                    display: flex;
+                    justify-content: flex-end;
+
+                    p.small {
+                        @include lt-lg {
+                            margin-bottom: 16px;
+                        }
+                    }
+
+                    @include lt-lg {
+                        flex-wrap: wrap;
+                        justify-content: flex-start;
+                        padding-top: 0px;
+                    }
+
+                    a {
+                        margin-left: 50px;
+                        color: $yellow;
+                        font-size: 14px;
+
+                        @include lt-custom(1200px) {
+                            margin-right: 30px;
+                        }
+
+                        @include lt-lg {
+                            margin-right: 25px;
+                            margin-left: 0px;
+                        }
+
+                        &:hover {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

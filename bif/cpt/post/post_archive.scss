@@ -1,0 +1,56 @@
+@import "sass-globals";
+.blog-archive {
+    @include padding();
+    .blog-post {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-bottom: 2px solid $light-gray;
+        &:first-of-type {
+            padding-top: 0px;
+        }
+        .image {
+            .image_holder {
+                min-height: 300px;
+                background-size: cover;
+                background-position: center center;
+                cursor: pointer;
+            }
+        }
+        .info {
+            display: flex;
+            align-items: center;
+            .hold-me {
+                padding-left: 30px;
+                .button {
+                    margin: 0px;
+                }
+            }
+        }
+    }
+    .pagination {
+        text-align: center;
+        padding-top: 45px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+        a {}
+        ul {
+            display: inline-block;
+            li {
+                font-size: 20px;
+                margin-right: 0.0625rem;
+                border-radius: 0;
+                font-weight: bold;
+                a {
+                    line-height: 25px;
+                    padding: 6px 14px;
+                }
+                span {
+                    &.current {
+                        background-color: $primary;
+                        padding: 6px 14px;
+                    }
+                }
+            }
+        }
+    }
+}

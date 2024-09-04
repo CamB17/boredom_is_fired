@@ -1,0 +1,99 @@
+@import "sass-globals";
+
+.fm_resource_archive {
+    @include padding;
+    padding-top: 138px;
+
+    &:before {
+        @include gt-sm {
+            display: none;
+        }
+
+        @include lt-md {
+            background-image: url('../../../../_images/dividers/black_top_desktop.svg') !important;
+        }
+    }
+
+
+    .headline {
+        margin-bottom: 55px;
+    }
+
+    .alm-layouts {
+        .alm-listing {
+            margin-right: -16px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -16px;
+        }
+    }
+
+    .ajax-load-more-wrap.grey .alm-load-more-btn {
+        background-color: $black;
+        @include p_normal;
+        border-radius: 16px;
+        padding: 15px 30px;
+        border-radius: 27px;
+        line-height: 1;
+        height: unset;
+        font-weight: $weight_semi_bold;
+
+        @include lt-md {
+            font-size: 16px;
+            padding: 10px 17px;
+        }
+
+        &:hover {
+            background-color: $purple;
+            color: $black;
+        }
+    }
+
+    .alm-filters-container {
+
+
+        .alm-filter {
+            .alm-filter--inner {
+                padding-bottom: 5px;
+
+                ul {
+                    @include gt-sm {
+                        display: flex;
+                    }
+
+                    li {
+                        margin-right: 32px;
+
+                        >div {
+                            @include p_normal;
+                            color: $black;
+
+                            &.active {
+                                &:before {
+                                    border-color: $black;
+                                    background-color: $yellow;
+                                }
+                            }
+
+                            &:before {
+                                width: 16px;
+                                height: 16px;
+                                top: 4px;
+                                background-color: $yellow;
+                                border-color: $black;
+                            }
+
+
+
+                            &::after {
+                                background-color: $black;
+                                left: 4px;
+                                top: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

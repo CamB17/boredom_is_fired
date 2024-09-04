@@ -1,0 +1,11 @@
+@import "sass-globals";
+.news_single {
+    @include padding();
+    .row {
+        .columns {
+            .button.back {
+                margin: 25px 0px 0px;
+            }
+        }
+    }
+}

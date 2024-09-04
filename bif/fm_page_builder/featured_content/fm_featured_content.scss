@@ -1,0 +1,25 @@
+@import "sass-globals";
+
+.fm_featured_content {
+    @include padding;
+
+    .featured_blocks {
+        @include gt-sm {
+            justify-content: center;
+        }
+
+        @include lt-md {
+            flex-flow: nowrap;
+            overflow-x: scroll;
+        }
+
+        .block {
+            margin-top: 40px;
+
+            img {
+                margin-bottom: 30px;
+                border-radius: 16px;
+            }
+        }
+    }
+}

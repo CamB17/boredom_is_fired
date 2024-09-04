@@ -1,0 +1,12 @@
+/* line 1, ../vendor/skip_link/skip_link.scss */
+#skip_to_content {
+  z-index: 100;
+  position: absolute !important;
+  top: 10px;
+  left: 10px; }
+
+/* line 9, ../vendor/skip_link/skip_link.scss */
+body.admin-bar #skip-to-content {
+  top: 42px; }
+
+/*# sourceMappingURL=skip_link.css.map */

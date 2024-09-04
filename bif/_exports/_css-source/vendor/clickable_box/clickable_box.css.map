@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "clickable_box.css",
+	"sources": [
+		"../../../../_engine/vendor/clickable_box/clickable_box.scss"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,cAAc,CAAC;EACX,MAAM,EAAC,OAAO,GACjB"
+}

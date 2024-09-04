@@ -1,0 +1,39 @@
+/* line 3, ../../fm_assorted/article_box/fm_article_box.scss */
+.fm_article_box {
+  margin-bottom: 30px; }
+  /* line 6, ../../fm_assorted/article_box/fm_article_box.scss */
+  .fm_article_box .hold_me {
+    height: 100%;
+    position: relative;
+    transition: background-color .25s;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px; }
+    /* line 17, ../../fm_assorted/article_box/fm_article_box.scss */
+    .fm_article_box .hold_me:hover .fm_button {
+      background-color: #fbc34a;
+      border-color: #fbc34a;
+      color: #0a0a0a; }
+    /* line 24, ../../fm_assorted/article_box/fm_article_box.scss */
+    .fm_article_box .hold_me .content {
+      flex: 1;
+      padding: 25px 15px 50px 15px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: center; }
+      /* line 33, ../../fm_assorted/article_box/fm_article_box.scss */
+      .fm_article_box .hold_me .content .top {
+        padding-bottom: 20px; }
+        /* line 36, ../../fm_assorted/article_box/fm_article_box.scss */
+        .fm_article_box .hold_me .content .top .icon {
+          margin-bottom: 20px; }
+        /* line 40, ../../fm_assorted/article_box/fm_article_box.scss */
+        .fm_article_box .hold_me .content .top h3 {
+          margin-bottom: 14px; }
+        /* line 45, ../../fm_assorted/article_box/fm_article_box.scss */
+        .fm_article_box .hold_me .content .top p {
+          text-align: left; }
+
+/*# sourceMappingURL=fm_article_box.css.map */

@@ -1,0 +1,185 @@
+@import "sass-globals";
+
+.fm_testimonials_stats {
+    @include padding;
+
+    .boxes {
+        .box {
+            margin-bottom: 35px;
+
+            &.testimonial {
+                .hold_testimonial {
+                    border-radius: 26px;
+                    padding: 45px 24px;
+
+                    @include lt-md {
+                        padding: 13px 17px 32px;
+                    }
+
+                    .quote_icon {
+                        img {
+                            @include lt-md {
+                                max-width: 35px;
+                            }
+                        }
+                    }
+
+                    .content {
+                        .quote {
+                            margin-top: 12px;
+
+                            p.small {
+                                @include lt-md {
+                                    margin-bottom: 12px;
+                                }
+                            }
+
+                            .h5 {
+                                @include gt-lg {
+                                    margin-top: 25px;
+                                }
+                            }
+                        }
+
+                        .photo {
+                            img {
+                                border-radius: 1000px;
+
+                                @include lt-md {
+
+                                    // max-width: 40%;
+                                    // margin-top: 19px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.stat {
+                .hold_stat {
+                    @include gt-md {
+                        margin-top: 30px;
+                    }
+
+                    &.purple {
+
+                        h2,
+                        p {
+                            color: $purple;
+                        }
+                    }
+
+                    &.blue {
+
+                        h2,
+                        p {
+                            color: $blue;
+                        }
+                    }
+
+                    &.green {
+
+                        h2,
+                        p {
+                            color: $green;
+                        }
+                    }
+
+                    &.orange {
+
+                        h2,
+                        p {
+                            color: $orange;
+                        }
+                    }
+
+                    .row {
+
+                        .stat,
+                        .icon {
+                            @include gt-md {
+                                flex: 0 0 auto;
+
+                            }
+                        }
+
+                        .stat {
+                            @include lt-md {
+                                order: 1;
+                                flex: 0 0 75%;
+                                display: flex;
+                                align-items: center;
+                            }
+
+                            p {
+                                font-weight: $weight_extra_bold;
+                                font-size: 85px;
+                                line-height: 1;
+
+                                @include lt-lg {
+                                    font-size: 55px;
+                                }
+
+                            }
+                        }
+
+                        .icon {
+                            @include lt-md {
+                                // order: 0;
+                                // flex: 0 0 25%;
+                                display: none;
+                            }
+                        }
+
+                        .headline {
+                            @include lt-md {
+                                order: 2;
+                            }
+
+                            h2 {
+                                font-size: 32px;
+                                font-weight: $weight_extra_bold;
+                                line-height: 36px;
+                                letter-spacing: -.89px;
+                                font-family: $sans;
+
+                                @include lt-lg {
+                                    font-size: 24px;
+                                    line-height: 27px;
+                                    letter-spacing: -.5px;
+                                }
+                            }
+
+                            p {
+                                margin-top: 12px;
+                                font-size: 20px;
+                                letter-spacing: -.56px;
+                                color: $black;
+
+                                @include lt-lg {
+                                    font-size: 16px;
+                                    letter-spacing: -.3px;
+                                }
+                            }
+                        }
+
+                        .icon {
+                            @include lt-lg {
+                                margin-top: 20px;
+                            }
+
+                            .fm_icon {
+                                width: 100px;
+
+                                @include lt-md {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

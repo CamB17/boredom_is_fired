@@ -1,0 +1,64 @@
+{
+    "key": "group_631fc49c529d8",
+    "title": "CPT: Icon",
+    "fields": [
+        {
+            "key": "field_631fc4a98e71c",
+            "label": "SVG Code",
+            "name": "svg_code",
+            "aria-label": "",
+            "type": "acfe_code_editor",
+            "instructions": "1. Remove the xml tag.<br>\r\n2. Add \/ modify the title tag for accessibility.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "default_value": "",
+            "placeholder": "",
+            "mode": "text\/html",
+            "lines": 1,
+            "indent_unit": 4,
+            "maxlength": "",
+            "rows": 4,
+            "max_rows": "",
+            "return_format": [],
+            "required_message": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "icons"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "featured_image"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1712152830,
+    "acfe_categories": {
+        "post-type": "Post Type"
+    }
+}

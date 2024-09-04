@@ -1,0 +1,29 @@
+/* line 4, ../../fm_assorted/search_form/fm_search_form.scss */
+.fm_search_form form {
+  display: flex;
+  align-items: center; }
+  /* line 9, ../../fm_assorted/search_form/fm_search_form.scss */
+  .fm_search_form form.active input {
+    width: 150px; }
+  /* line 14, ../../fm_assorted/search_form/fm_search_form.scss */
+  .fm_search_form form input {
+    border: 0px;
+    border-bottom: 1px solid #0a0a0a;
+    width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 4px;
+    transition: width .25s; }
+    /* line 23, ../../fm_assorted/search_form/fm_search_form.scss */
+    .fm_search_form form input:focus {
+      outline: 0px; }
+  /* line 28, ../../fm_assorted/search_form/fm_search_form.scss */
+  .fm_search_form form button#search_toggle {
+    line-height: 0;
+    font-size: 0px; }
+    /* line 32, ../../fm_assorted/search_form/fm_search_form.scss */
+    .fm_search_form form button#search_toggle svg {
+      cursor: pointer;
+      width: 26px; }
+
+/*# sourceMappingURL=fm_search_form.css.map */

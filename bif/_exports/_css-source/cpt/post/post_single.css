@@ -1,0 +1,23 @@
+/* line 2, ../../cpt/post/post_single.scss */
+.post_single {
+  padding-top: calc(8.93vw + 10px);
+  padding-bottom: calc(8.93vw + 10px); }
+  /* line 5, ../../styles/mixins/_margin_padding.scss */
+  .post_single.bg_white {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  @media only screen and (max-width: 1024px) {
+    /* line 2, ../../cpt/post/post_single.scss */
+    .post_single {
+      padding-top: 90px;
+      padding-bottom: 90px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 2, ../../cpt/post/post_single.scss */
+    .post_single {
+      padding-top: 70px;
+      padding-bottom: 70px; } }
+  /* line 6, ../../cpt/post/post_single.scss */
+  .post_single .row .columns .button.back {
+    margin: 25px 0px 0px; }
+
+/*# sourceMappingURL=post_single.css.map */

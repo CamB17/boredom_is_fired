@@ -1,0 +1,11 @@
+
+// if two module elements are next to each other with the same background color, remove the padding between them.
+@mixin adjacent_module_sibling_rules($class) {
+    &.module {
+        &+.module.#{$class} {
+            padding-top: 0px;
+        }
+    }
+}
+
+

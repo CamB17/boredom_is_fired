@@ -1,0 +1,46 @@
+// theme fonts
+$sans: 'DM Sans';
+$headline: 'Blackflower';
+
+//
+$yellow: #fbc34a;
+$blue: #50c1e3;
+$purple: #9091ce;
+$green: #5fc290;
+$orange: #fb8d4d;
+
+// theme colors
+$light_gray: #e9edf0;
+$medium_gray: #ced2db;
+$dark_gray: #000000;
+$white: #fefefe;
+$black: #0a0a0a;
+$primary: $yellow;
+$secondary: $black;
+$text_color: $black;
+
+// theme paddings
+$small-spacing: 35;
+$medium-spacing: 70;
+$large-spacing: 105;
+
+$weight_extra_bold: 800;
+$weight_regular: 400;
+$weight_semi_bold: 600;
+$weight_medium: 500;
+$weight_bold: 700;
+
+
+
+// foundation colors
+$foundation-palette: ( primary: $primary, secondary: $secondary, success: #3adb76, warning: #ffae00, alert: #ec5840, );
+$dark-gray: $dark_gray;
+$light-gray: $light_gray;
+$body-background: $white;
+$body-font-color: $black;
+$body-font-family: $sans;
+
+// foundation sizes
+$global-font-size: 100%;
+$global-width: rem-calc(1200);
+$global-lineheight: 1.5;

@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "fm_resource_feed.css",
+	"sources": [
+		"../../../../fm_page_builder/resource_feed/fm_resource_feed.scss",
+		"../../../../_engine/grunt/sass-globals.scss",
+		"../../../../styles/variables/_variables.scss",
+		"../../../../styles/mixins/_mixins.scss",
+		"../../../../styles/mixins/_responsive.scss",
+		"../../../../styles/mixins/_margin_padding.scss",
+		"../../../../styles/html_elements/p/_p.scss",
+		"../../../../styles/html_elements/h/_h.scss",
+		"../../../../styles/bg_colors/bg_light/_bg_light.scss",
+		"../../../../styles/bg_colors/bg_dark/_bg_dark.scss"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,iBAAiB,CAAC;EKDd,WAAW,EAAE,mBAAmB;EAChC,cAAc,EAAE,mBAAmB,GL0CtC;;EA1CD,AKEI,iBLFa,AKEZ,SAAS,CAAC;IACP,WAAW,EAAE,IAAI;IACjB,cAAc,EAAE,IAAI,GACvB;ED6CD,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;;IJlD7C,AAAA,iBAAiB,CAAC;MKQV,WAAW,EAAE,IAAI;MACjB,cAAc,EAAE,IAAI,GLiC3B;EIcG,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;;IJxD5C,AAAA,iBAAiB,CAAC;MKaV,WAAW,EAAE,IAAI;MACjB,cAAc,EAAE,IAAI,GL4B3B;;EA1CD,AAQY,iBARK,CAGb,SAAS,CAGL,KAAK,CAED,EAAE,CAAC;IACC,aAAa,EAAE,GAAG,GACrB;;EAVb,AAaQ,iBAbS,CAGb,SAAS,CAUL,KAAK,CAAC;IAEF,OAAO,EAAE,IAAI;IACb,WAAW,EAAE,MAAM;IACnB,eAAe,EAAE,QAAQ,GAW5B;II4BL,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;;MJxD5C,AAaQ,iBAbS,CAGb,SAAS,CAUL,KAAK,CAAC;QAOE,WAAW,EAAE,UAAU;QACvB,UAAU,EAAE,IAAI,GAOvB;;IA5BT,AAyBY,iBAzBK,CAGb,SAAS,CAUL,KAAK,CAYD,UAAU,CAAC;MACP,MAAM,EAAE,GAAG,GACd;;EA3Bb,AA+BI,iBA/Ba,CA+Bb,UAAU,CAAC;IACP,UAAU,EAAC,IAAI,GASlB;IISD,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;;MJlD7C,AA+BI,iBA/Ba,CA+Bb,UAAU,CAAC;QAGH,SAAS,EAAE,MAAM;QACjB,UAAU,EAAE,MAAM,GAMzB;;IAzCL,AAsCQ,iBAtCS,CA+Bb,UAAU,CAON,eAAe,CAAC;MACZ,aAAa,EAAE,IAAI,GACtB"
+}

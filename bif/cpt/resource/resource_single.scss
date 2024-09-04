@@ -1,0 +1,16 @@
+@import "sass-globals";
+
+.single-resource {
+    .row.content {
+        max-width: 50rem;
+
+        @include lt-md {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        h2.date {
+            margin-bottom: 15px;
+        }
+    }
+}

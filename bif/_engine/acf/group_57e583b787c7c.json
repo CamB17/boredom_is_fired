@@ -1,0 +1,71 @@
+{
+    "key": "group_57e583b787c7c",
+    "title": "CPT: Post",
+    "fields": [
+        {
+            "key": "field_64c3d799617d8",
+            "label": "Featured Image",
+            "name": "featured_image",
+            "aria-label": "",
+            "type": "image_aspect_ratio_crop",
+            "instructions": "Min 1200x700. JPG only.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "crop_type": "aspect_ratio",
+            "aspect_ratio_width": 1200,
+            "aspect_ratio_height": 700,
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 1200,
+            "min_height": 700,
+            "min_size": "",
+            "max_width": 1200,
+            "max_height": 700,
+            "max_size": "",
+            "mime_types": "jpg,jpeg",
+            "required_message": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "comments",
+        "discussion",
+        "featured_image",
+        "format",
+        "tags"
+    ],
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1690556393,
+    "acfe_categories": {
+        "post-type": "Post Type"
+    }
+}

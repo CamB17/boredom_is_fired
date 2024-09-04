@@ -1,0 +1,145 @@
+@import "sass-globals";
+
+.fm_accordion {
+    // margin: 40px 0px;
+
+    .accordion {
+        width: 100%;
+        overflow: hidden;
+        border: 1px solid $black;
+        border-bottom: 1px solid $white;
+
+        &:first-of-type {
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        &:last-of-type {
+            border-bottom-left-radius: 4px;
+            border-bottom: 1px solid $black;
+            border-bottom-right-radius: 4px;
+        }
+
+        &__intro {
+            position: relative;
+            padding: 30px 90px 30px 33px;
+            cursor: pointer;
+            width: 100%;
+            text-align: left;
+            background-color: $black;
+            color: $white;
+
+            h3 {
+                color: $white;
+                margin-bottom: 0px;
+            }
+
+            div {
+                margin-bottom: 0px;
+            }
+
+
+
+            svg {
+                position: absolute;
+                right: 33px;
+                top: calc(50% - 7px);
+                transform: rotate(90deg);
+                width: 10px;
+                height: 14px;
+            }
+
+
+        }
+
+        &__content {
+            padding: 0 33px 0px 0px;
+            max-height: 0;
+            overflow: hidden;
+            will-change: max-height;
+            transition: all 0.25s ease-out;
+            opacity: 0;
+
+            p {
+                &:first-of-type {
+                    margin-top: 0px;
+                }
+
+                &:last-of-type {
+                    margin-bottom: 33px;
+                }
+            }
+        }
+
+        &__active {
+            margin-top: -1px;
+
+            .accordion__intro {
+                background-color: $white;
+                color: $black;
+
+                h3 {
+                    color: $black;
+                }
+
+                svg {
+                    transform: rotate(-90deg);
+                }
+            }
+
+            .accordion__content {
+                padding: 0 33px 33px;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.bg_dark {
+    .fm_accordion {
+
+
+        .accordion {
+
+            border: 1px solid $white;
+            border-bottom: 1px solid $black;
+
+            &:last-of-type {
+
+                border-bottom: 1px solid $white;
+
+            }
+
+            &__intro {
+
+                background-color: $white;
+                color: $black;
+
+                h3 {
+                    color: $black;
+                }
+
+
+
+            }
+
+            &__active {
+
+
+                .accordion__intro {
+                    background-color: $black;
+                    color: $white;
+
+                    h3 {
+                        color: $white;
+                    }
+
+
+                }
+
+            }
+
+        }
+    }
+
+}

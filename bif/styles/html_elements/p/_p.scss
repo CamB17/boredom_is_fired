@@ -1,0 +1,44 @@
+@mixin p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.33;
+
+    @include lt-md {
+        margin-bottom: 12px;
+    }
+
+    &:last-child {
+        margin-bottom: 0px;
+
+
+    }
+}
+
+@mixin p_normal {
+    @include p;
+    font-size: 18px;
+
+    @include lt-md {
+        font-size: 16px;
+    }
+
+}
+
+@mixin p_large {
+    @include p;
+    font-size: 20px;
+
+    @include lt-md {
+        font-size: 20px;
+    }
+
+}
+
+@mixin p_small {
+    @include p;
+    font-size: 16px;
+
+    @include lt-md {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,115 @@
+/* line 3, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+.fm_resource_archive {
+  padding-top: calc(8.93vw + 10px);
+  padding-bottom: calc(8.93vw + 10px);
+  padding-top: 138px; }
+  /* line 5, ../../styles/mixins/_margin_padding.scss */
+  .fm_resource_archive.bg_white {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  @media only screen and (max-width: 1024px) {
+    /* line 3, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+    .fm_resource_archive {
+      padding-top: 90px;
+      padding-bottom: 90px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 3, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+    .fm_resource_archive {
+      padding-top: 70px;
+      padding-bottom: 70px; } }
+  @media only screen and (min-width: 640px) {
+    /* line 7, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+    .fm_resource_archive:before {
+      display: none; } }
+  @media only screen and (max-width: 640px) {
+    /* line 7, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+    .fm_resource_archive:before {
+      background-image: url("../../../../_images/dividers/black_top_desktop.svg") !important; } }
+  /* line 18, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+  .fm_resource_archive .headline {
+    margin-bottom: 55px; }
+  /* line 23, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+  .fm_resource_archive .alm-layouts .alm-listing {
+    margin-right: -16px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -16px; }
+  /* line 31, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+  .fm_resource_archive .ajax-load-more-wrap.grey .alm-load-more-btn {
+    background-color: #0a0a0a;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.33;
+    font-size: 18px;
+    border-radius: 16px;
+    padding: 15px 30px;
+    border-radius: 27px;
+    line-height: 1;
+    height: unset;
+    font-weight: 600; }
+    @media only screen and (max-width: 640px) {
+      /* line 31, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+      .fm_resource_archive .ajax-load-more-wrap.grey .alm-load-more-btn {
+        margin-bottom: 12px; } }
+    /* line 10, ../../styles/html_elements/p/_p.scss */
+    .fm_resource_archive .ajax-load-more-wrap.grey .alm-load-more-btn:last-child {
+      margin-bottom: 0px; }
+    @media only screen and (max-width: 640px) {
+      /* line 31, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+      .fm_resource_archive .ajax-load-more-wrap.grey .alm-load-more-btn {
+        font-size: 16px; } }
+    @media only screen and (max-width: 640px) {
+      /* line 31, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+      .fm_resource_archive .ajax-load-more-wrap.grey .alm-load-more-btn {
+        font-size: 16px;
+        padding: 10px 17px; } }
+    /* line 46, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+    .fm_resource_archive .ajax-load-more-wrap.grey .alm-load-more-btn:hover {
+      background-color: #9091ce;
+      color: #0a0a0a; }
+  /* line 56, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+  .fm_resource_archive .alm-filters-container .alm-filter .alm-filter--inner {
+    padding-bottom: 5px; }
+    @media only screen and (min-width: 640px) {
+      /* line 59, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+      .fm_resource_archive .alm-filters-container .alm-filter .alm-filter--inner ul {
+        display: flex; } }
+    /* line 64, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+    .fm_resource_archive .alm-filters-container .alm-filter .alm-filter--inner ul li {
+      margin-right: 32px; }
+      /* line 67, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+      .fm_resource_archive .alm-filters-container .alm-filter .alm-filter--inner ul li > div {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        line-height: 1.33;
+        font-size: 18px;
+        color: #0a0a0a; }
+        @media only screen and (max-width: 640px) {
+          /* line 67, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+          .fm_resource_archive .alm-filters-container .alm-filter .alm-filter--inner ul li > div {
+            margin-bottom: 12px; } }
+        /* line 10, ../../styles/html_elements/p/_p.scss */
+        .fm_resource_archive .alm-filters-container .alm-filter .alm-filter--inner ul li > div:last-child {
+          margin-bottom: 0px; }
+        @media only screen and (max-width: 640px) {
+          /* line 67, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+          .fm_resource_archive .alm-filters-container .alm-filter .alm-filter--inner ul li > div {
+            font-size: 16px; } }
+        /* line 72, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+        .fm_resource_archive .alm-filters-container .alm-filter .alm-filter--inner ul li > div.active:before {
+          border-color: #0a0a0a;
+          background-color: #fbc34a; }
+        /* line 78, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+        .fm_resource_archive .alm-filters-container .alm-filter .alm-filter--inner ul li > div:before {
+          width: 16px;
+          height: 16px;
+          top: 4px;
+          background-color: #fbc34a;
+          border-color: #0a0a0a; }
+        /* line 88, ../../fm_page_builder/resource_archive/fm_resource_archive.scss */
+        .fm_resource_archive .alm-filters-container .alm-filter .alm-filter--inner ul li > div::after {
+          background-color: #0a0a0a;
+          left: 4px;
+          top: 8px; }
+
+/*# sourceMappingURL=fm_resource_archive.css.map */
